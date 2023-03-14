@@ -1,0 +1,1 @@
+python convert.py %~1 %~n1.kml

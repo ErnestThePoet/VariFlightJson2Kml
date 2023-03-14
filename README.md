@@ -1,5 +1,5 @@
 # VariFlightJson2Kml
-Flight track data exported from the Chinese ADS-B tracker site [VariFlight](https://flightadsb.variflight.com/) are offered in `csv` or `json` formats, without the `kml` option that FlightAware offers and we are familiar with, making it difficult to view the flight track in Google Earth. Since VariFlight has much better ADS-B coverage in China, I feel obliged to write this conversion script.  
+Flight track data exported from the Chinese ADS-B tracker site [VariFlight](https://flightadsb.variflight.com/) are only offered in `csv` or `json` formats. Absence of direct access to `kml` makes it difficult to visualize flight track in Google Earth. Since VariFlight has much better ADS-B coverage in China, I feel obliged to write this conversion script.  
 
 ### Usage
-Simply place the exported `json` file, modify `INPUT_PATH` and `OUTPUT_PATH` in `convert.py`, and run the script.
+Simply ***drag*** the `json` file onto `convert.bat`. Then you'll see the `kml` output file.
