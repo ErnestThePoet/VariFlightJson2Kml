@@ -1,1 +1,3 @@
-python convert.py %~1 %~n1.kml
+for %%f in (%*) do (
+  python convert.py "%%~ff" "%%~dpf%%~nf.kml"
+)
